@@ -28,4 +28,9 @@ public class FlowerBucketTest {
         flowerBucket.add(flowerPack);
         Assertions.assertEquals(price * quantity, flowerBucket.getPrice());
     }
+
+    @Test
+    public void testAll() {
+        System.out.println("Test");
+    }
 }
